@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="64" fill="#11172A"/>
+  <circle cx="980" cy="210" r="220" fill="#7CF2C7" fill-opacity="0.16"/>
+  <circle cx="210" cy="720" r="240" fill="#FFB4D8" fill-opacity="0.12"/>
+  <rect x="420" y="116" width="360" height="668" rx="72" fill="#18213F" stroke="#FFD9EC" stroke-opacity="0.25" stroke-width="8"/>
+  <rect x="462" y="170" width="276" height="560" rx="46" fill="url(#paint0_linear_1_2)"/>
+  <circle cx="600" cy="206" r="14" fill="#FFF1F8"/>
+  <circle cx="600" cy="720" r="16" fill="#FFF1F8" fill-opacity="0.32"/>
+  <text x="600" y="484" fill="#F5F7FF" font-size="74" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">Pixel</text>
+  <text x="600" y="566" fill="#B5BFDC" font-size="40" font-family="Arial, Helvetica, sans-serif" font-weight="600" text-anchor="middle">9 Pro</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="462" y1="170" x2="738" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2240"/>
+      <stop offset="1" stop-color="#0F152A"/>
+    </linearGradient>
+  </defs>
+</svg>

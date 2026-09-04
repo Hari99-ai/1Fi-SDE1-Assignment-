@@ -1,0 +1,19 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="64" fill="#10162B"/>
+  <circle cx="240" cy="180" r="220" fill="#7EA8FF" fill-opacity="0.16"/>
+  <circle cx="940" cy="700" r="260" fill="#7CF2C7" fill-opacity="0.12"/>
+  <rect x="390" y="110" width="420" height="680" rx="82" fill="#17203E" stroke="#D2D8FF" stroke-opacity="0.22" stroke-width="8"/>
+  <rect x="438" y="160" width="324" height="580" rx="48" fill="url(#paint0_linear_1_2)"/>
+  <circle cx="552" cy="210" r="20" fill="#D2D8FF" fill-opacity="0.28"/>
+  <circle cx="648" cy="210" r="20" fill="#D2D8FF" fill-opacity="0.28"/>
+  <circle cx="552" cy="306" r="20" fill="#D2D8FF" fill-opacity="0.28"/>
+  <circle cx="648" cy="306" r="20" fill="#D2D8FF" fill-opacity="0.28"/>
+  <text x="600" y="494" fill="#F5F7FF" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">Galaxy</text>
+  <text x="600" y="574" fill="#B5BFDC" font-size="40" font-family="Arial, Helvetica, sans-serif" font-weight="600" text-anchor="middle">S24 Ultra</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="438" y1="160" x2="762" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2344"/>
+      <stop offset="1" stop-color="#0D1326"/>
+    </linearGradient>
+  </defs>
+</svg>

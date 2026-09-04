@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="64" fill="#111730"/>
+  <circle cx="960" cy="150" r="220" fill="#7CF2C7" fill-opacity="0.14"/>
+  <circle cx="220" cy="740" r="260" fill="#7EA8FF" fill-opacity="0.14"/>
+  <rect x="410" y="120" width="380" height="660" rx="74" fill="#1B2447" stroke="#9FB7FF" stroke-opacity="0.32" stroke-width="8"/>
+  <rect x="450" y="180" width="300" height="540" rx="48" fill="url(#paint0_linear_1_2)"/>
+  <circle cx="600" cy="196" r="10" fill="#DCE7FF"/>
+  <circle cx="600" cy="716" r="18" fill="#DCE7FF" fill-opacity="0.4"/>
+  <text x="600" y="470" fill="#F5F7FF" font-size="74" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">iPhone</text>
+  <text x="600" y="552" fill="#B5BFDC" font-size="40" font-family="Arial, Helvetica, sans-serif" font-weight="600" text-anchor="middle">17 Pro</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="450" y1="180" x2="750" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17213F"/>
+      <stop offset="1" stop-color="#0E1327"/>
+    </linearGradient>
+  </defs>
+</svg>

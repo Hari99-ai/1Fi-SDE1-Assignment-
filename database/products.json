@@ -1,0 +1,229 @@
+{
+  "products": [
+    {
+      "id": "iphone-17-pro",
+      "slug": "iphone-17-pro",
+      "name": "iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "description": "Premium flagship with a titanium frame, advanced camera system, and fast charging support.",
+      "image": "/products/iphone-17-pro-main.svg",
+      "mrp": 149900,
+      "price": 134900,
+      "variants": [
+        {
+          "id": "silver-256",
+          "label": "Silver - 256 GB",
+          "storage": "256 GB",
+          "color": "Silver",
+          "image": "/products/iphone-17-pro-main.svg",
+          "mrp": 149900,
+          "price": 134900
+        },
+        {
+          "id": "graphite-512",
+          "label": "Graphite - 512 GB",
+          "storage": "512 GB",
+          "color": "Graphite",
+          "image": "/products/iphone-17-pro-main.svg",
+          "mrp": 169900,
+          "price": 154900
+        },
+        {
+          "id": "desert-1tb",
+          "label": "Desert Titanium - 1 TB",
+          "storage": "1 TB",
+          "color": "Desert Titanium",
+          "image": "/products/iphone-17-pro-main.svg",
+          "mrp": 189900,
+          "price": 174900
+        }
+      ],
+      "emiPlans": [
+        {
+          "id": "ip17p-6-no-cost",
+          "months": 6,
+          "interestRate": 0,
+          "monthlyPayment": 22484,
+          "cashback": 0,
+          "fundBacked": "Liquid mutual fund",
+          "note": "Zero-interest plan with full principal repayment over 6 months."
+        },
+        {
+          "id": "ip17p-9-cashback",
+          "months": 9,
+          "interestRate": 6.5,
+          "monthlyPayment": 15978,
+          "cashback": 2000,
+          "fundBacked": "Ultra-short debt fund",
+          "note": "Lower monthly outgo with limited cashback on successful mandate completion."
+        },
+        {
+          "id": "ip17p-12-smart",
+          "months": 12,
+          "interestRate": 10.5,
+          "monthlyPayment": 12340,
+          "cashback": 3500,
+          "fundBacked": "Balanced advantage fund",
+          "note": "Longer tenure for the lowest monthly payment in the set."
+        }
+      ],
+      "highlights": [
+        "A19 Pro-class chip",
+        "48 MP pro camera stack",
+        "All-day battery life",
+        "Ceramic shield front"
+      ]
+    },
+    {
+      "id": "samsung-s24-ultra",
+      "slug": "samsung-s24-ultra",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "description": "Big-screen Android flagship with S Pen support, a vivid display, and premium AI features.",
+      "image": "/products/s24-ultra-main.svg",
+      "mrp": 139999,
+      "price": 124999,
+      "variants": [
+        {
+          "id": "titanium-gray-256",
+          "label": "Titanium Gray - 256 GB",
+          "storage": "256 GB",
+          "color": "Titanium Gray",
+          "image": "/products/s24-ultra-main.svg",
+          "mrp": 139999,
+          "price": 124999
+        },
+        {
+          "id": "titanium-black-512",
+          "label": "Titanium Black - 512 GB",
+          "storage": "512 GB",
+          "color": "Titanium Black",
+          "image": "/products/s24-ultra-main.svg",
+          "mrp": 154999,
+          "price": 139999
+        },
+        {
+          "id": "titanium-violet-1tb",
+          "label": "Titanium Violet - 1 TB",
+          "storage": "1 TB",
+          "color": "Titanium Violet",
+          "image": "/products/s24-ultra-main.svg",
+          "mrp": 174999,
+          "price": 159999
+        }
+      ],
+      "emiPlans": [
+        {
+          "id": "s24u-6-no-cost",
+          "months": 6,
+          "interestRate": 0,
+          "monthlyPayment": 20834,
+          "cashback": 0,
+          "fundBacked": "Liquid fund",
+          "note": "Straightforward 6-month zero-interest split."
+        },
+        {
+          "id": "s24u-9-cashback",
+          "months": 9,
+          "interestRate": 7.25,
+          "monthlyPayment": 14785,
+          "cashback": 1500,
+          "fundBacked": "Low-duration debt fund",
+          "note": "Mid-term plan with cashback when all installments are paid on time."
+        },
+        {
+          "id": "s24u-12-smart",
+          "months": 12,
+          "interestRate": 11,
+          "monthlyPayment": 11735,
+          "cashback": 2500,
+          "fundBacked": "Dynamic bond fund",
+          "note": "Best option if you want the lightest monthly payment."
+        }
+      ],
+      "highlights": [
+        "Dynamic AMOLED 2X display",
+        "S Pen support",
+        "200 MP main camera",
+        "Galaxy AI tools"
+      ]
+    },
+    {
+      "id": "pixel-9-pro",
+      "slug": "pixel-9-pro",
+      "name": "Google Pixel 9 Pro",
+      "brand": "Google",
+      "category": "Smartphones",
+      "description": "Camera-first Android phone with clean software, strong AI features, and all-day reliability.",
+      "image": "/products/pixel-9-pro-main.svg",
+      "mrp": 109999,
+      "price": 99999,
+      "variants": [
+        {
+          "id": "porcelain-128",
+          "label": "Porcelain - 128 GB",
+          "storage": "128 GB",
+          "color": "Porcelain",
+          "image": "/products/pixel-9-pro-main.svg",
+          "mrp": 109999,
+          "price": 99999
+        },
+        {
+          "id": "obsidian-256",
+          "label": "Obsidian - 256 GB",
+          "storage": "256 GB",
+          "color": "Obsidian",
+          "image": "/products/pixel-9-pro-main.svg",
+          "mrp": 119999,
+          "price": 109999
+        },
+        {
+          "id": "rose-512",
+          "label": "Rose Quartz - 512 GB",
+          "storage": "512 GB",
+          "color": "Rose Quartz",
+          "image": "/products/pixel-9-pro-main.svg",
+          "mrp": 129999,
+          "price": 119999
+        }
+      ],
+      "emiPlans": [
+        {
+          "id": "p9p-6-no-cost",
+          "months": 6,
+          "interestRate": 0,
+          "monthlyPayment": 16667,
+          "cashback": 0,
+          "fundBacked": "Liquid fund",
+          "note": "Clean six-month option for buyers who prefer no interest."
+        },
+        {
+          "id": "p9p-9-cashback",
+          "months": 9,
+          "interestRate": 6.9,
+          "monthlyPayment": 11698,
+          "cashback": 1200,
+          "fundBacked": "Money market fund",
+          "note": "Balanced tenure with a small cashback incentive."
+        },
+        {
+          "id": "p9p-12-smart",
+          "months": 12,
+          "interestRate": 10,
+          "monthlyPayment": 9290,
+          "cashback": 2000,
+          "fundBacked": "Short-term debt fund",
+          "note": "Lowest monthly payment for budget-conscious buyers."
+        }
+      ],
+      "highlights": [
+        "Best-in-class computational photography",
+        "Tensor G4 chip",
+        "Clean Android experience",
+        "7 years of software support"
+      ]
+    }
+  ]
+}
