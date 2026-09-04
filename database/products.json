@@ -7,7 +7,7 @@
       "brand": "Apple",
       "category": "Smartphones",
       "description": "Premium flagship with a titanium frame, advanced camera system, and fast charging support.",
-      "image": "/products/iphone-17-pro-main.svg",
+      "image": "/products/iphone-17-pro-extracted.png",
       "mrp": 149900,
       "price": 134900,
       "variants": [
@@ -16,7 +16,7 @@
           "label": "Silver - 256 GB",
           "storage": "256 GB",
           "color": "Silver",
-          "image": "/products/iphone-17-pro-main.svg",
+          "image": "/products/iphone-17-pro-extracted.png",
           "mrp": 149900,
           "price": 134900
         },
@@ -25,7 +25,7 @@
           "label": "Graphite - 512 GB",
           "storage": "512 GB",
           "color": "Graphite",
-          "image": "/products/iphone-17-pro-main.svg",
+          "image": "/products/iphone-17-pro-extracted.png",
           "mrp": 169900,
           "price": 154900
         },
@@ -34,7 +34,7 @@
           "label": "Desert Titanium - 1 TB",
           "storage": "1 TB",
           "color": "Desert Titanium",
-          "image": "/products/iphone-17-pro-main.svg",
+          "image": "/products/iphone-17-pro-extracted.png",
           "mrp": 189900,
           "price": 174900
         }

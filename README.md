@@ -9,6 +9,7 @@ Simple full-stack product catalog for the SDE1 assignment. It includes:
 - A responsive product detail experience with EMI plan selection
 - The assignment reference image surfaced in the UI from `public/reference/page1-2.png`
 - External product-page reference: https://snapmint.com/p/apple-iphone-17-pro-silver-256-gb-smart-phones-on-emi
+- The iPhone product art is extracted from the reference screenshot and reused across product, detail, and checkout views
 
 ## Tech Stack
 
@@ -106,6 +107,7 @@ The relational schema includes:
 - `public/products/*.svg` contains the product visuals used by the cards and detail pages
 - `public/reference/page1-2.png` is the reference image extracted from the assignment PDF
 - The Snapmint product page above is the external UI reference used for layout and content cues
+- `public/products/iphone-17-pro-extracted.png` is the extracted reusable product image used in the live catalog
 
 ## Notes
 
