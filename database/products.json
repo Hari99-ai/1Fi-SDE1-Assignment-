@@ -224,6 +224,204 @@
         "Clean Android experience",
         "7 years of software support"
       ]
+    },
+    {
+      "id": "macbook-air-m4",
+      "slug": "macbook-air-m4",
+      "name": "MacBook Air M4",
+      "brand": "Apple",
+      "category": "Laptops",
+      "description": "Ultra-light laptop for students and professionals with long battery life and a silent design.",
+      "image": "/products/macbook-air-m4.svg",
+      "mrp": 139900,
+      "price": 129900,
+      "variants": [
+        {
+          "id": "silver-256",
+          "label": "Silver - 256 GB",
+          "storage": "256 GB",
+          "color": "Silver",
+          "image": "/products/macbook-air-m4.svg",
+          "mrp": 139900,
+          "price": 129900
+        },
+        {
+          "id": "starlight-512",
+          "label": "Starlight - 512 GB",
+          "storage": "512 GB",
+          "color": "Starlight",
+          "image": "/products/macbook-air-m4.svg",
+          "mrp": 159900,
+          "price": 149900
+        },
+        {
+          "id": "midnight-1tb",
+          "label": "Midnight - 1 TB",
+          "storage": "1 TB",
+          "color": "Midnight",
+          "image": "/products/macbook-air-m4.svg",
+          "mrp": 179900,
+          "price": 169900
+        }
+      ],
+      "emiPlans": [
+        {
+          "id": "mba-m4-6-no-cost",
+          "months": 6,
+          "interestRate": 0,
+          "monthlyPayment": 21650,
+          "cashback": 0,
+          "fundBacked": "Liquid mutual fund",
+          "note": "Short no-cost plan for immediate purchase planning."
+        },
+        {
+          "id": "mba-m4-9-cashback",
+          "months": 9,
+          "interestRate": 6.2,
+          "monthlyPayment": 15080,
+          "cashback": 1800,
+          "fundBacked": "Ultra-short debt fund",
+          "note": "Balanced option with cashback on successful completion."
+        },
+        {
+          "id": "mba-m4-12-smart",
+          "months": 12,
+          "interestRate": 9.75,
+          "monthlyPayment": 11840,
+          "cashback": 2800,
+          "fundBacked": "Balanced advantage fund",
+          "note": "Best if you want a lower monthly commitment."
+        }
+      ],
+      "highlights": [
+        "M4 chip",
+        "All-day battery life",
+        "Liquid Retina display",
+        "Lightweight aluminum body"
+      ]
+    },
+    {
+      "id": "sony-wh1000xm5",
+      "slug": "sony-wh1000xm5",
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "Audio",
+      "description": "Premium noise-cancelling headphones tuned for travel, work calls, and immersive listening.",
+      "image": "/products/sony-wh1000xm5.svg",
+      "mrp": 34990,
+      "price": 29990,
+      "variants": [
+        {
+          "id": "black-1",
+          "label": "Black",
+          "storage": "Standard",
+          "color": "Black",
+          "image": "/products/sony-wh1000xm5.svg",
+          "mrp": 34990,
+          "price": 29990
+        },
+        {
+          "id": "silver-1",
+          "label": "Silver",
+          "storage": "Standard",
+          "color": "Silver",
+          "image": "/products/sony-wh1000xm5.svg",
+          "mrp": 34990,
+          "price": 30490
+        }
+      ],
+      "emiPlans": [
+        {
+          "id": "sony-xm5-3-no-cost",
+          "months": 3,
+          "interestRate": 0,
+          "monthlyPayment": 9997,
+          "cashback": 0,
+          "fundBacked": "Liquid fund",
+          "note": "Short and simple plan for accessory purchases."
+        },
+        {
+          "id": "sony-xm5-6-cashback",
+          "months": 6,
+          "interestRate": 5.5,
+          "monthlyPayment": 5110,
+          "cashback": 500,
+          "fundBacked": "Money market fund",
+          "note": "Moderate tenure with cashback on successful repayment."
+        }
+      ],
+      "highlights": [
+        "Industry-leading noise cancellation",
+        "Up to 30 hours battery life",
+        "Multipoint Bluetooth",
+        "Foldable travel case"
+      ]
+    },
+    {
+      "id": "apple-watch-series-10",
+      "slug": "apple-watch-series-10",
+      "name": "Apple Watch Series 10",
+      "brand": "Apple",
+      "category": "Wearables",
+      "description": "Slim smartwatch with health tracking, fitness features, and daily smart notifications.",
+      "image": "/products/apple-watch-series-10.svg",
+      "mrp": 52900,
+      "price": 47900,
+      "variants": [
+        {
+          "id": "aluminum-silver",
+          "label": "Aluminum - Silver",
+          "storage": "GPS",
+          "color": "Silver",
+          "image": "/products/apple-watch-series-10.svg",
+          "mrp": 52900,
+          "price": 47900
+        },
+        {
+          "id": "aluminum-midnight",
+          "label": "Aluminum - Midnight",
+          "storage": "GPS",
+          "color": "Midnight",
+          "image": "/products/apple-watch-series-10.svg",
+          "mrp": 55900,
+          "price": 50900
+        },
+        {
+          "id": "titanium-natural",
+          "label": "Titanium - Natural",
+          "storage": "Cellular",
+          "color": "Natural Titanium",
+          "image": "/products/apple-watch-series-10.svg",
+          "mrp": 69900,
+          "price": 64900
+        }
+      ],
+      "emiPlans": [
+        {
+          "id": "aw10-3-no-cost",
+          "months": 3,
+          "interestRate": 0,
+          "monthlyPayment": 15967,
+          "cashback": 0,
+          "fundBacked": "Liquid fund",
+          "note": "Simple three-month plan for wearables."
+        },
+        {
+          "id": "aw10-6-cashback",
+          "months": 6,
+          "interestRate": 4.75,
+          "monthlyPayment": 8240,
+          "cashback": 750,
+          "fundBacked": "Short-duration debt fund",
+          "note": "Lower monthly payment with a small cashback incentive."
+        }
+      ],
+      "highlights": [
+        "Health and fitness tracking",
+        "Always-on display",
+        "Fast charging",
+        "Seamless iPhone integration"
+      ]
     }
   ]
 }

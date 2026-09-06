@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { EmiPlan, Product, Variant } from "@/lib/catalog";
+import type { EmiPlan, Product, Variant } from "@/lib/types";
 
 type Props = {
   product: Product;

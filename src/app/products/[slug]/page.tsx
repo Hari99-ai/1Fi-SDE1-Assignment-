@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { ProductPageClient } from "@/components/product-page";
-import type { Product } from "@/lib/catalog";
+import type { Product } from "@/lib/types";
 import { getAbsoluteUrl } from "@/lib/url";
 
 type PageProps = {

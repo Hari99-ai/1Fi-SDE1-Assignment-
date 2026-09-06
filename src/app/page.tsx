@@ -1,30 +1,26 @@
-import { HomePage } from "@/components/home-page";
+import { ShopPage } from "@/components/shop-page";
+import type { Product } from "@/lib/types";
 import { getAbsoluteUrl } from "@/lib/url";
 
 export default async function Home() {
-  const response = await fetch(await getAbsoluteUrl("/api/products"), {
-    cache: "no-store"
-  });
+  try {
+    const response = await fetch(await getAbsoluteUrl("/api/marketplace"), {
+      cache: "no-store"
+    });
 
-  if (!response.ok) {
-    throw new Error("Failed to load products");
+    if (!response.ok) {
+      throw new Error("Failed to load marketplace");
+    }
+
+    const data = (await response.json()) as { products: Product[] };
+
+    return <ShopPage products={data.products} />;
+  } catch {
+    return (
+      <ShopPage
+        products={[]}
+        error="The marketplace catalog could not be loaded right now. Please try again shortly."
+      />
+    );
   }
-
-  const data = (await response.json()) as {
-    products: Array<{
-      id: string;
-      slug: string;
-      name: string;
-      brand: string;
-      category: string;
-      image: string;
-      mrp: number;
-      price: number;
-      variantCount: number;
-      planCount: number;
-      description: string;
-    }>;
-  };
-
-  return <HomePage products={data.products} />;
 }

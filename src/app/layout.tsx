@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "EMI Products Demo",
-  description: "Dynamic product catalog with EMI plans backed by a file-based database."
+  title: "1Fi Shop",
+  description: "1Fi Shop experience with a dynamic Marketplace section and EMI plan selection."
 };
 
 export default function RootLayout({

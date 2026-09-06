@@ -1,40 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-
-export type EmiPlan = {
-  id: string;
-  months: number;
-  interestRate: number;
-  monthlyPayment: number;
-  cashback: number;
-  fundBacked: string;
-  note: string;
-};
-
-export type Variant = {
-  id: string;
-  label: string;
-  storage: string;
-  color: string;
-  image: string;
-  mrp: number;
-  price: number;
-};
-
-export type Product = {
-  id: string;
-  slug: string;
-  name: string;
-  brand: string;
-  category: string;
-  description: string;
-  image: string;
-  mrp: number;
-  price: number;
-  variants: Variant[];
-  emiPlans: EmiPlan[];
-  highlights: string[];
-};
+import type { Product } from "@/lib/types";
 
 type CatalogFile = {
   products: Product[];
@@ -72,4 +38,8 @@ export async function getProductBySlug(slug: string) {
 export async function getFeaturedProducts() {
   const catalog = await loadCatalog();
   return catalog.products;
+}
+
+export async function getMarketplaceProducts() {
+  return getFeaturedProducts();
 }
